@@ -1,0 +1,39 @@
+.capital {
+  width: 400px;
+  padding: 10px 0;
+}
+
+.capital__aprovado {
+  background-color: #d3e6f0;
+  color: #5c8599;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0 10px;
+  margin-bottom: 3px;
+}
+
+.capital__captado {
+  background-color: #d3f0ea;
+  color: #5c8599;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 3px;
+}
+
+.capital__porcentagem {
+  background-color: #e6d7f5;
+  color: #8f6bb3;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+}

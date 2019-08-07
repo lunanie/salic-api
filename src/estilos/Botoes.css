@@ -1,0 +1,41 @@
+.botoes {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.botoes__div {
+  display: flex;
+}
+
+.botoes__meEscolhe {
+  background-color: #d3e6f0;
+  color: #5c8599;
+  font-weight: bold;
+  border: solid 2px #ffffff;
+  border-radius: 8px;
+  padding: 0 10px;
+  box-shadow: 1px 2px #dbdbdb;
+}
+
+.botoes__png {
+  background-color: #d3e6f0;
+  color: #5c8599;
+  font-weight: bold;
+  border: solid 2px #ffffff;
+  border-radius: 8px;
+  padding: 2px;
+  box-shadow: 1px 2px #dbdbdb;
+  margin: 3px;
+}
+
+.botoes__meEscolhe p {
+  font-size: 20px;
+  margin-top: 12px;
+  color: #5c8599;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.titulo {
+  display: flex;
+  background-color: #f5f5f5;
+  color: #638b9e;
+  width: 420px;
+  justify-content: space-between;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.titulo__texto {
+  color: #638b9e;
+  width: 80%;
+}
+
+.titulo__texto h3 {
+  padding: 10px;
+  margin: 0;
+}
+
+.titulo__img {
+  width: 16%;
+}
+
+.titulo__img--png {
+  max-width: 60px;
+}

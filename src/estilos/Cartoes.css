@@ -1,0 +1,18 @@
+.cartaoConjunto {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.cartaoIndividual {
+  padding: 3px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  min-height: 400px;
+  margin: 15px;
+}
+
+.corpo__cartao {
+  padding: 10px;
+}
