@@ -2,15 +2,18 @@
   width: 400px;
   padding-top: 10px;
 }
+
 .descricao__organizacao {
   font-size: 12px;
   font-weight: bold;
 }
+
 .descricao__tipologia {
   font-size: 12px;
   font-weight: bold;
   color: #5c8599;
 }
+
 .descricao__cidade--lei {
   display: flex;
   justify-content: space-between;
@@ -24,10 +27,12 @@
   color: #a3becc;
   margin: 0;
 }
+
 .descricao__lei {
   background-color: #cae6ae;
   border-radius: 8px;
 }
+
 .descricao__lei--texto {
   color: #ffffff;
   margin: 0;

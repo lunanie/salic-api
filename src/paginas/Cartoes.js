@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Titulo from "../component/Titulo";
 import Descricao from "../component/Descricao";
 import Aporte from "../component/Aporte";
@@ -20,7 +20,7 @@ export default class Cartoes extends Component {
     )
       .then(response => response.json())
       .then(response =>
-        this.setState({ dadosJson: response._embedded.projetos })
+        this.setState({dadosJson: response._embedded.projetos})
       )
       .catch(erro => {
         alert(erro);
@@ -29,7 +29,7 @@ export default class Cartoes extends Component {
 
   render() {
     return (
-      <div className="cartaoConjunto">
+      <div id="start" className="cartaoConjunto">
         {this.state.dadosJson.map(itemJson => (
           <div className="cartaoIndividual">
             <Titulo nome={itemJson.nome} />
